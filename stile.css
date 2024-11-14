@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    margin-top: 20px;
+
+    nav {
+        display: flex;
+
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+
+            .nav-itms {
+                margin-left: 40px;
+
+                a {
+                    color: gray;
+                }
+
+            }
+        }
+
+        .iconka {
+            width: 50px;
+            height: 50px;
+            margin-left: 800px;
+            font-size: 1.5em;
+            border-radius: 50px;
+            text-align: center;
+
+        }
+
+
+    }
+
+    .odtex {
+        display: flex;
+
+        .text-1 {
+            font-size: 1.8em;
+            margin-top: 130px;
+
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+
+        .img-odam {
+            background-image: url(./img/odam.png);
+            width: 535px;
+            height: 650px;
+            margin-left: 350px;
+            margin-top: -50px;
+        }
+
+    }
+
+    .button {
+        margin-top: -260px;
+
+        button {
+            width: 180px;
+            height: 60px;
+            background-color: #8643DC;
+            color: #fff;
+            font-size: 1.5em;
+            border-radius: 50px;
+
+        }
+    }
+
+    .part-2 {
+        margin-top: 300px;
+
+        .brend {
+            display: flex;
+            justify-content: space-between;
+
+            .tel {
+                margin-top: 50px;
+
+                p {
+                    margin-top: 20px;
+                }
+
+                .tel-tex {
+                    display: flex;
+                }
+
+                h2 {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .part-3 {
+        .part-3text {
+            display: flex;
+            justify-content: space-between;
+
+            .strelka {
+                display: flex;
+
+                img {
+                    margin-top: 8px;
+                }
+            }
+        }
+
+
+    }
+
+    .part-4 {
+        margin-top: 50px;
+
+        .ilovalar {
+            display: flex;
+        }
+    }
+
+    .part-5 {
+        margin-top: 100px;
+
+        .opacha {
+            text-align: center;
+
+            h4 {
+                margin-top: -30px;
+            }
+
+            .radio {
+                input {
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .photo {
+            margin-top: -330px;
+
+            .r2 {
+                margin-left: 1100px;
+            }
+
+            .r3 {
+                margin-top: 130px;
+                margin-left: 200px;
+            }
+
+            .r4 {
+                margin-top: 130px;
+                margin-left: 680px;
+            }
+        }
+    }
+
+
+    .part-6{
+        margin-top: 200px;
+        display: flex;
+        img{
+            margin-left: 50px;
+        }
+
+        .lupa{
+            a{
+                margin-left: 50px;
+            }
+            h5{
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .part-7{
+
+        input{
+            font-size: 1.5  em;
+            width: 91%;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+
+        button{
+            background-color: #8643DC;
+            width: 150px;
+            height: 50px;
+            border-radius: 50px;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .part-8{
+        margin-top: 50px;
+        text-align: center;
+        img{
+            margin-left: 25px;
+        }
+    }
+
+}
